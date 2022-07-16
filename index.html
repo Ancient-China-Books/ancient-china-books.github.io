@@ -4,7 +4,14 @@
     <title>古籍索引</title>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <style type="text/css">
-      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
+      @font-face {
+        src: local("Noto Serif TC Medium"), url(Fonts/NotoSerifTC-Medium.otf);
+        font-family: 'Noto Serif TC Medium';
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+      }
+
       html {
         font-size: 100%;
         overflow-y: scroll;
@@ -12,7 +19,7 @@
         -ms-text-size-adjust: 100%;
       }
       body {
-        font-family: "Noto Serif TC", serif;
+        font-family: "Noto Serif TC Medium", serif;
         font-size: 110%;
         line-height: 1.7;
         padding-left: 0;
